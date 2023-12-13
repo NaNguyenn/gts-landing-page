@@ -1,6 +1,11 @@
 import { productSectionListItems } from "@/lib/placeholder-data";
 import Image from "next/image";
-import { hero1Image } from "../../../../public/images";
+import {
+  hero1Image,
+  productAttach1Image,
+  productAttach2Image,
+  productAttach3Image,
+} from "../../../../public/images";
 
 const ProductSection = () => {
   return (
@@ -30,14 +35,39 @@ const ProductSection = () => {
             ))}
           </ul>
         </div>
-        <Image
-          src={hero1Image}
-          alt="Product image 2"
-          className="rounded-xl"
-          width={680}
-          height={425}
-          priority
-        />
+        <div className="relative">
+          <Image
+            src={hero1Image}
+            alt="v-one showcase"
+            className="rounded-xl"
+            priority
+          />
+          <Image
+            src={productAttach1Image}
+            alt="attachment image 1"
+            className="absolute -top-20 left-24"
+          />
+          <Image
+            src={productAttach1Image}
+            alt="attachment image 2"
+            className="absolute -top-20 left-60"
+          />
+          <Image
+            src={productAttach1Image}
+            alt="attachment image 3"
+            className="absolute -top-20 left-96"
+          />
+          <Image
+            src={productAttach2Image}
+            alt="attachment image 4"
+            className="absolute bottom-10 -right-20"
+          />
+          <Image
+            src={productAttach3Image}
+            alt="attachment image 5"
+            className="absolute -bottom-16 -left-14"
+          />
+        </div>
       </div>
     </section>
   );
