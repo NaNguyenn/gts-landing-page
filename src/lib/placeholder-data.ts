@@ -170,3 +170,50 @@ export const feedbacksData = [
     },
   },
 ];
+
+export const procedureStepsData = [
+  { value: "Lên kế hoạch bán hàng", order: "01" },
+  { value: "Tiếp cận, đánh giá, phân loại khách hàng", order: "02" },
+  { value: "Tư vấn và giới thiệu", order: "03" },
+  { value: "Thanh toán", order: "04" },
+  { value: "Cung cấp dịch vụ", order: "05" },
+  { value: "Báo giá", order: "06" },
+  { value: "Chăm sóc khách hàng tự động", order: "07" },
+  { value: "Kết thúc đơn hàng", order: "08" },
+];
+
+export const pricingListItems = [
+  { value: "Báo cáo" },
+  { value: "CRM" },
+  { value: "HRM" },
+  { value: "Dự án" },
+  { value: "Kế toán" },
+  { value: "Tài chính" },
+  { value: "Hỗ trợ" },
+  { value: "Lịch" },
+  { value: "Tiện ích khác" },
+];
+
+export const pricingOptionsData = [
+  {
+    name: "cơ bản",
+    monthlyPrice: 800000,
+    description:
+      "Quy mô nhỏ giúp tổ chức linh hoạt và thường có sự giao tiếp chặt chẽ giữa các bộ phận.",
+    features: ["Mọi tính năng của V-ONE", "Ít hơn 15 nhân sự", "10GB"],
+  },
+  {
+    name: "Premium",
+    monthlyPrice: 13500000,
+    description:
+      "Linh hoạt quy trình các bộ phận chuyên sâu với cấu trúc tổ chức đa dạng hơn.",
+    features: ["Mọi tính năng của V-ONE", "15 đến 25 nhân sự", "20GB"],
+  },
+  {
+    name: "Unlimited",
+    monthlyPrice: 8300000,
+    description:
+      "Hỗ trợ doanh nghiệp quản lý tập trung, giảm thiểu lỗi và tối ưu hóa hiệu suất.",
+    features: ["Mọi tính năng của V-ONE", "Tối đa 100 nhân sự", "50GB"],
+  },
+];
