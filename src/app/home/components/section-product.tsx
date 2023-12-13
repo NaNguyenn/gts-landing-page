@@ -1,5 +1,6 @@
 import { productSectionListItems } from "@/lib/placeholder-data";
 import Image from "next/image";
+import { hero1Image } from "../../../../public/images";
 
 const ProductSection = () => {
   return (
@@ -30,11 +31,12 @@ const ProductSection = () => {
           </ul>
         </div>
         <Image
-          src="/images/image-1.png"
+          src={hero1Image}
           alt="Product image 2"
           className="rounded-xl"
           width={680}
           height={425}
+          priority
         />
       </div>
     </section>

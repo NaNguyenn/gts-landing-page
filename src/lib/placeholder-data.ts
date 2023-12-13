@@ -1,5 +1,4 @@
-import feature1 from "../../public/images/feature-1.jpeg";
-import customer1 from "../../public/images/customer-1.jpeg";
+import { customer1Avatar, feature1Image } from "../../public/images";
 
 export const companyInfoData = {
   fullname: "Global Technology Solutions Vietnam",
@@ -66,56 +65,56 @@ export const benefitsCardsData = [
 
 export const featuresCardsData = [
   {
-    image: { src: feature1, width: 270 },
+    image: { src: feature1Image, width: 270 },
     title: "Đánh giá khách hàng",
     description:
       "Dự liệu về khách hàng được hệ thống tự động đánh giá để phân loại khách hàng mục tiêu.",
     color: "#1CDCC5",
   },
   {
-    image: { src: feature1, width: 270 },
+    image: { src: feature1Image, width: 270 },
     title: "Báo giá",
     description:
       "Tạo báo giá nhanh chóng, giảm thời gian tiếp cận và chờ đợi thông tin sản phẩm của khách hàng.",
     color: "#1CDCC5",
   },
   {
-    image: { src: feature1, width: 270 },
+    image: { src: feature1Image, width: 270 },
     title: "Hợp đồng online",
     description:
       "Giảm thiểu sai xót, thời gian trong  quá trình ký kết hợp đồng và được lưu trữ lại đối chiếu khi cần thiết.",
     color: "#1CDCC5",
   },
   {
-    image: { src: feature1, width: 270 },
+    image: { src: feature1Image, width: 270 },
     title: "Đề xuất kế hoạch",
     description:
       "Lập kế hoạch và chia sẻ với đội nhóm thuận tiện trong quá trình triển khai dự án.",
     color: "#1CDCC5",
   },
   {
-    image: { src: feature1 },
+    image: { src: feature1Image },
     title: "Hóa đơn điện tử",
     description:
       "Kiểm soát lưu lượng hàng hóa, hóa đơn thuận tiện chỉ với một tính năng duy nhất.",
     color: "#1CDCC5",
   },
   {
-    image: { src: feature1, width: 270 },
+    image: { src: feature1Image, width: 270 },
     title: "Tiện ích thanh toán",
     description:
       "Thanh toán dễ dàng với các hình thức thanh toán linh hoạt được tích hợp sẵn trên hệ thống.",
     color: "#1CDCC5",
   },
   {
-    image: { src: feature1, width: 270 },
+    image: { src: feature1Image, width: 270 },
     title: "Ghi chú tín dụng",
     description:
       "Ghi chú tin dụng giúp kiểm soát hoạt động tài chính của doanh nghiệp hiểu quả, kịp thời.",
     color: "#1CDCC5",
   },
   {
-    image: { src: feature1, width: 270 },
+    image: { src: feature1Image, width: 270 },
     title: "Tính năng hỗ trợ",
     description:
       "Sản phẩm được tích hợp các tính năng hỗ trợ bán hàng như: Chat, Email Marketing, Call...",
@@ -128,7 +127,7 @@ export const feedbacksData = [
     quote:
       "V-One nằm trong hệ sinh thái các sản phẩm số của GTS Việt Nam hướng tới mục địch hỗ trợ xây dựng hệ thống vận hành cho các doanh nghiệp thông qua chuyển đổi số.",
     customer: {
-      image: { src: customer1, width: 80 },
+      image: { src: customer1Avatar, width: 80 },
       name: "Nguyễn Văn A",
       jobTitle: "Job Title",
     },
@@ -137,7 +136,7 @@ export const feedbacksData = [
     quote:
       "V-One nằm trong hệ sinh thái các sản phẩm số của GTS Việt Nam hướng tới mục địch hỗ trợ xây dựng hệ thống vận hành cho các doanh nghiệp thông qua chuyển đổi số.",
     customer: {
-      image: { src: customer1, width: 80 },
+      image: { src: customer1Avatar, width: 80 },
       name: "Nguyễn Văn A",
       jobTitle: "Job Title",
     },
@@ -146,7 +145,7 @@ export const feedbacksData = [
     quote:
       "V-One nằm trong hệ sinh thái các sản phẩm số của GTS Việt Nam hướng tới mục địch hỗ trợ xây dựng hệ thống vận hành cho các doanh nghiệp thông qua chuyển đổi số.",
     customer: {
-      image: { src: customer1, width: 80 },
+      image: { src: customer1Avatar, width: 80 },
       name: "Nguyễn Văn A",
       jobTitle: "Job Title",
     },
@@ -155,7 +154,7 @@ export const feedbacksData = [
     quote:
       "V-One nằm trong hệ sinh thái các sản phẩm số của GTS Việt Nam hướng tới mục địch hỗ trợ xây dựng hệ thống vận hành cho các doanh nghiệp thông qua chuyển đổi số.",
     customer: {
-      image: { src: customer1, width: 80 },
+      image: { src: customer1Avatar, width: 80 },
       name: "Nguyễn Văn A",
       jobTitle: "Job Title",
     },
@@ -164,7 +163,7 @@ export const feedbacksData = [
     quote:
       "V-One nằm trong hệ sinh thái các sản phẩm số của GTS Việt Nam hướng tới mục địch hỗ trợ xây dựng hệ thống vận hành cho các doanh nghiệp thông qua chuyển đổi số.",
     customer: {
-      image: { src: customer1, width: 80 },
+      image: { src: customer1Avatar, width: 80 },
       name: "Nguyễn Văn A",
       jobTitle: "Job Title",
     },

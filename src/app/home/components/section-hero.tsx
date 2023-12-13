@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { hero1Image } from "../../../../public/images";
 
 const HeroSection = () => {
   return (
@@ -21,21 +22,22 @@ const HeroSection = () => {
       </div>
       <div className="mb-24 flex items-center justify-center gap-x-14 overflow-clip">
         <Image
-          src="/images/image-1.png"
+          src={hero1Image}
           alt="Product image 2"
           className="border-[10px] border-solid border-[#277DFC] rounded-xl"
           width={704}
           height={440}
         />
         <Image
-          src="/images/image-1.png"
+          src={hero1Image}
           alt="Product image 1"
           className="border-[10px] border-solid border-[#277DFC] rounded-xl"
           width={832}
           height={520}
+          priority
         />
         <Image
-          src="/images/image-1.png"
+          src={hero1Image}
           alt="Product image 3"
           className="border-[10px] border-solid border-[#277DFC] rounded-xl"
           width={704}

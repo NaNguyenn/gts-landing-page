@@ -13,6 +13,7 @@ const Footer = () => {
           className="mb-20"
           width={165}
           height={62}
+          priority
         />
         <p className="mb-5 font-semibold">Theo dõi chúng tôi qua:</p>
         <div className="flex items-center gap-4">

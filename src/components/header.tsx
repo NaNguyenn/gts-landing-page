@@ -11,6 +11,7 @@ const Header = () => {
             alt="GTS Logo"
             width={120}
             height={44}
+            priority
           />
         </div>
 
